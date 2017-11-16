@@ -101,7 +101,7 @@
           <h2 id="goals">
             What is the purpose of this workshop?
           </h2>
-          <p>The primary goal of the workshop is to bring together telecommunications operators, network equipment providers, content delivery networks, browser vendors, and application developers to evaluate and prepare for the <strong>impact of 5G on Web standards</strong>.</p>
+          <p>The primary goal of the workshop is to bring together telecommunications operators, network equipment providers, content delivery networks, browser vendors, and application developers to evaluate and prepare for the <strong>impact of 5G and other network-layer technologies on Web standards</strong>.</p>
           <p>
             We won't just be listening to presentations, but we will be actively participating in breakout sessions and working discussions covering <a href="#topics">topics identified as relevant to the participants</a>.
           </p>
@@ -130,8 +130,13 @@
             <dd>The Internet had existed for years when the Web was invented in 1989, but it took the harmonized application platform of the Web to usher in the Internet economy. W3C holds a similar view of the “<a href="https://www.w3.org/WoT/">Web of Things</a>” as a uniform application layer that will make it much easier to develop Internet of Things applications that leverage 5G’s low latency and wide coverage.</dd>
             <dt>Automotive</dt>
             <dd>Connectivity is driving <a href="https://www.w3.org/Auto/">automotive industry interest in platform enhancements</a> for in-vehicle, inter-vehicle, and vehicle-to-infrastructure services. APIs from W3C that provide access to external sensors will benefit from 5G’s low latency.</dd>
+            <dt>QUIC and protocol innovation</dt>
+            <dd>With QUIC expected to bring new performance characteristics to HTTP, and with ongoing discussions to bring QUIC as a primitive in the Web Platform, plenty of network innovation and exploration can be expected via browsers in the years to come.</dd>
             </dl>
-            <p>Although different industries emphasize different use cases, in many cases the required capabilities are common to multiple industries. W3C’s diverse, international community of stakeholders helps build the Web for converging requirements across industries.</p>
+
+          <p>Although different industries emphasize different use cases, in many cases the required capabilities are common to multiple industries. W3C’s diverse, international community of stakeholders helps build the Web for converging requirements across industries.</p>
+
+          <p>Furthermore, many of the expected network evolutions require interactions between the networking and application layer that be at odd with the security and privacy architecture of the Web: it is thus critical that these inconsistencies be understood, mapped, and if possible, corrected.</p>
 
           <h3 id="future">What is needed to make the Web 5G ready?</h3>
           <p>For many years, the telecommunications industry and other stakeholders at W3C have sought to improve integration of the network protocol layer with Web applications, to improve monitoring of network performance, control of network transport characteristics, and discovery of and interation with of network services.</p>
@@ -147,6 +152,7 @@
           <ul>
             <li><a href="https://blog.google/topics/internet-access/partnering-toward-next-generation-mobile-networks/">Google worked with 3 telecommunication operators in India</a> to make it easier for their users to download YouTube videos during network off-hours under the "Smart Offline" banner. That cooperation is based on a general mechanism for operators to collaborate with Google applications via the <a href="https://developers.google.com/mobile-data-plan/reference/rest/">Mobile Data Plan API</a></li>
             <li>Google also experimented with good results in using <a href="https://tools.ietf.org/html/draft-flinck-mobile-throughput-guidance-04">MEC Throughput Guidance</a> to enhance video streaming performance.</li>
+            <li>Cloudflare is <a href="https://blog.cloudflare.com/introducing-cloudflare-workers/">adopting Service Workers</a> to deploy edge computing services.</li>
             <li>The <a href="https://tools.ietf.org/html/draft-wang-rtcweb-oars-02">operator-assisted relay service specification</a> proposes an architecture where apps and networks cooperate in setting up optimal relays.</li>
             <li>The <a href="http://www.cisco.com/c/dam/en/us/td/docs/wireless/controller/technotes/8-3/Optimizing_WiFi_Connectivity_and_Prioritizing_Business_Apps.pdf">collaboration between Cisco and Apple on iOS networking</a> in entreprise networks illustrates how the cooperation of the application layer (mediated by the OS in this case) with the networking layer (as exposed by Cisco routers) can lead to improved performances for identified applications.</li>
           </ul>
@@ -166,7 +172,9 @@
             <li>Architectural evolutions of the Web to enable greater network/application integration</li>
             <li>Connecting network management and network metrics from Web applications</li>
             <li>Case studies of existing network/application integration and their extension to the Web</li>
-            <li>Features provided by new networking technologies (e.g. MEC) and their applicability to Web applications</li>
+            <li>Features provided by new networking technologies and their applicability to Web applications</li>
+            <li>Bringing edge-computing capabilities to Web applications</li>
+            <li>Impact of integrating QUIC in the Web Platform</li>
           </ul>
           <p>
             Suggestions for further workshop topics? Submit a <a href=
