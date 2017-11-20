@@ -30,6 +30,24 @@ body {
   margin-top: 0;
 }
 
+#top {
+  background-image: url("london.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 319px;
+  color: white;
+  position: relative;
+}
+
+#top h1,
+#top h2 {
+  padding: 1rem;
+  color: white;
+  text-shadow: 4px 4px 20px black;
+}
+
+#top a.credit { position: absolute; bottom:0; right:0;}
+
 .footer :last-child {
   margin-bottom: 0;
 }
