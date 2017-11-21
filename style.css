@@ -46,7 +46,7 @@ body {
   text-shadow: 4px 4px 20px black;
 }
 
-#top h1 a:link, #top h1:visited { color: white;}
+#top h1 a:link, #top h1 a:visited { color: white;}
 
 #top a.credit { position: absolute; bottom:0; right:0;}
 
