@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      W3C Web5G Workshop Report
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <p>
+        <a href="https://www.w3.org/"><img alt="W3C" src=
+        "https://www.w3.org/Icons/w3c_home" height="48" width="72"></a>
+      </p>
+      <div id="top">
+        <h1><a href="./">W3C Web5G技术研讨会: 应对互联网与Web技术的发展</a></h1>
+        <h2>2018年5月10-11日，英国伦敦</h2>
+      <a class="credit" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/photos/tvPvROBv0F4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">James Padolsey</span></a>
+</div>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a  class="active-tab">研讨会报告</a>
+          </li>
+          <li>
+            <a href="schedule.html">会议日程</a>
+          </li>
+          <li>
+            <a href="participants.html">与会成员</a>
+          </li>
+          <li>
+            <a href="papers.html">立场声明</a>
+          </li>
+          <li>
+            <a href="cfp.html">注册参会</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="box" id="host">
+      <h2 class="footnote">
+        研讨会主办方
+      </h2>
+      <p>
+        W3C特此感谢GSMA作为本次研讨会主办方所提供的支持。
+      </p>
+    </aside>
+    <main id="main" class="main">
+      <h1>W3C Web5G技术研讨会报告</h1>
+      <p>翻译声明：以下是对Web5G技术研讨会报告<a href="https://www.w3.org/2017/11/web5g-workshop/report.html">英文原文</a>的中文翻译，仅供参考。有关报告中涉及的具体细节与问题，请以报告英文原文为准。</p>
+
+      <h2>﻿摘要</h2>
+      <p>2018年5月10-11日，由W3C组织、GSMA主办的Web5G技术研讨会在伦敦举办。研讨会汇集了网络运营商、供应商、应用程序开发者、内容提供者、以及标准制定者，共同探讨开放Web平台如何从应用层到网络层推动对5G创新的采用。</p>
+      <p>与会者在为期两天的时间里，回顾了应用层的创新与功能可以为5G网络带来的机遇。 </p>
+      <p>研讨会最后提议成立一个特别任务组（task force），进一步探索5G与Web社区如何凝聚在一起高效地开展相关工作。</p>
+      <p>特别值得一提的是，与会者对于发展令人信服的业务与技术因素和目标达成了广泛共识，鼓励和推动W3C、5G标准组织（例如3GPP）、浏览器供应商、开发人员、设备供应商和网络运营商之间的密切合作，旨在创造一个有利于所有利益相关方都支持的技术开发和部署环境。</p>
+
+      <h2>引言</h2>
+      <p>第五代移动通信技术（5G）旨在为用户提供更高带宽、更低延迟、覆盖更密集、以及更大连接的服务和控制。实现这一目标所需的投入，在很多方面都要依赖于Web技术和软件的功能。特别是在终端用户（消费者和商业用户）可以切实享受到这些技术所带来的益处之前，应用和服务开发者要先接触并采纳它们。</p>
+      <p>本次的Web5G研讨会，旨在开启新的网络技术部署和新应用领域发展所涉及的各利益相关方之间的对话。</p>
+
+      <h2>5G赋能应用</h2>
+<p>正如 <a href="https://www.w3.org/2018/Talks/web5g/dan-web5g.pptx">Dan Warren (Samsung) 所说</a>，5G网络的要求是在分析B2B使用案例中新需求的基础上，由下一代移动网络联盟（Next Generation Mobile Networks Alliance）所定义的。</p>
+
+      <p>这些要求预计将以以下方式得到实现:</p>
+      <ul>
+        <li>增强频谱效率提供更大的吞吐量,</li>
+        <li>包含更多的天线及其信号关联,</li>
+        <li>由于对自定义硬件（软件化）依赖的减少以及在网络操作中部署新软件（“云化”）的可扩展性，从而增加灵活性。</li>
+        <li>对这些改进的实际实施和部署将在多年后逐步显现，与此同时，在可预见的未来旧一代网络将继续运行。网络的实际功能也会因位置而异，例如，一些更高的频率被认为在室内表现得不够好。</li>
+      </ul>
+      
+<p>以下两方面将驱动对部署这些功能所需的投入：一方面，消费者对更高带宽的需求不断增长（特别是提高视频质量、以及其他需要带宽的应用程序，例如虚拟现实等），另一方面，移动运营商希望藉由B2B用例（网络作为一种服务、物联网、工业自动化、虚拟和增强现实的专业应用、电子健康等）打开新的市场机遇。</p>
+      
+<p>因此，后者的关键在于移动运营商是否有能力公开这些新的网络功能，从而使它们易于使用并且适用于各类服务开发者。</p>
+      
+<p>对新的5G架构进行标准化的<a href="http://www.3gpp.org/">3GPP</a>，正在为REST APIs开发一个框架，当与5G公开的服务进行交互时，开发人员将集成这些APIs（所以被称为<a href="http://www.3gpp.org/news-events/3gpp-news/1854-common_api">Northbound API Framework</a>）。ETSI已经开始定义<a href="http://www.etsi.org/news-events/news/1204-2017-07-news-etsi-multi-access-edge-computing-group-releases-a-first-package-of-apis">APIs来揭示多接入边缘计算的功能（Multi-Access Edge Computing，简称MEC）</a>。</p>
+
+<p>很多参与者唤起了先前在电信行业建设和揭示基于网络的功能所进行的各种努力，(<a href="http://www.omtp.org/">OMTP</a>，<a href="http://www.wholesaleappcommunity.com/">WAC</a>，<a href="https://en.wikipedia.org/wiki/OneAPI">OneAPI</a>，<a href="https://en.wikipedia.org/wiki/Parlay_Group">Parlay</a>)，而由于开发人员难以跨运营商统一访问这些特性，以及跨Web和电信领域部署API的不同速度和文化，导致很多尝试都很难被广泛采用。</p>
+
+<p>研讨会与会者因此指出，上述的新努力将得益于更直接的参与和来自应用层的输入，与会者将此视为W3C可以提供助力的一项任务。 这不仅涉及技术因素（API设计、平台中的集成点），而且还涉及主要的业务考量，这些考虑因素能够使所有利益相关者在公开这些功能时找到共同点。</p>
+     
+<h2>在专用网络中尝试新的Web/网络集成</h2>
+<p>5G架构的一个显著特性是能够无缝地创建网络切片（network slices），每个网络切片之间是隔离的，这与虚拟专用网络（VPN）的功能是类似的，它能够提供定制的网络特性，例如带宽、延迟、容量等，包括通过无线网络接口。</p>
+
+<p>这些网络切片有望在应用程序如何访问5G最先进的性能设置（例如，超低延迟）方面发挥关键作用。</p>
+<p>关于这些切片的部署和规模上仍存在诸多未知：何时可用，如何使用，一个既定网络将支持多少切片，以及切片有多少剖面等？</p>
+
+<p>这些切片可以被用于部署垂直集成的应用程序，其中网络层被认为是某一特定服务不可分割的组成部分，因而将依赖于它的性能特征及其公开功能（例如，用于配置或访问边缘计算）。因此，它们可能是试验集成应用程序和网络层新方法的沃土，与专用企业网络实现特定优化的方式相同（例如WebRTC中的DSCP标记）。</p>
+
+<p>研讨会与会者鼓励W3C进一步探索如何以及何时在Web浏览器中对这些面向专用网络（与“公共网络”相对）的特征进行试验。</p>
+      
+      
+<h2>传输层的创新</h2>
+<p>除了5G的新无线电性能及其相关的面向服务的体系架构所带来的改进之外，研讨会与会者还回顾审阅了传输层的一些变化。</p>
+
+      <p><a href="https://www.w3.org/2018/Talks/web5g/NGP_for_Web5G_2018.pdf">John Grant (Nine Tiles) 介绍了</a>ETSI中正在进行的工作，即定义下一代协议来替换IP层，目的在于减少运营商网络环境下的延迟，同时增加安全性。几位与会者对现有IP堆栈的的整体比较，以及正在进行的QUIC工作可以提供的改善作出了反馈，并指出，任何替代IP都难以获得通过，特别是任何性能的提升都可能在与IP网络的必要连接中丢失。</p>     
+
+<p><a href="https://www.w3.org/2018/Talks/web5g/perkins-Web5G.pdf">Colin Perkins (University of Glasgow) 提供了</a>在IETF的TAPS(传输服务)中得到的经验，在这个网络堆栈已经变得愈加复杂和更多特征的时代，通过一个语义更丰富的API，来替换当前在大多环境中使用的与IP网络交互的标准套接字API。</p>
+
+<p> <a href="https://www.w3.org/2018/Talks/web5g/vyncke_PvD.pdf">Eric Vincke (Cisco) 分享了</a>IETF“配置域”(Provisioning Domains，PvDs)工作所带来的应用程序与网络之间更好的整合前景。底层规范使网络运营商能够通知连接设备网络的特性（例如，网络流量是否被调节、使用前是否要求基于Web的登陆），并为网络进一步描述和链接到它们可能公开的服务开辟了道路。</p>
+      
+<h2>应用层的需求</h2>
+<p><a href="https://www.w3.org/2018/Talks/web5g/jeff-web5g.pptx">Jeff Jaffe (W3C CEO)在本次研讨会的主题演讲</a>中阐释，5G创新只有在应用层得到了采纳，才会产生实际意义。他强调了Web作为一个平台，在推动5G创新得到应用层采纳方面所具备的优势：跨平台可用性、最大的开发者群体资源、广泛的开源杠杆、以及最大的终端用户市场。</p>
+      
+<p>他为这种网络和应用的更高集成提出了许多候选领域，例如，实时通信、下一代媒体交付、物联网、汽车、虚拟和增强现实等。他邀请电信和网络社区提供正确的钩子（hooks），推动这种集成成为可能，而不是满足于假设抽象网络分层模型就足够了。</p>
+
+<p> <a href="https://www.w3.org/2018/Talks/dhm-browser-app-platform-web5g/">Dominique Hazael-Massieux (W3C) 阐述了</a>他自己关于为何Web平台是最大网络集成开发平台的观点，并指出其在构建网络资源标识体系架构方面的独特性。之后，他探讨了平台中的正在发生的一些变化（流、点对点拓扑、与网络、硬件、操作系统和云服务的深入集成）如何成为Web发展的新动向，其中的很多变化都是强烈依赖于网络集成的。特别是，“云原生浏览器”的概念提出了让浏览器代表终端用户成为网络和云资源的可编程协调器。</p>
+      
+<p>研讨会与会者从两个特定的应用领域中听取了有关网络发展的需求及其影响。</p>
+
+<p><a href="https://www.w3.org/2018/Talks/web5g/WebXR5G.pdf">Diego Gonzales (Samsung)介绍了</a>Web作为沉浸式内容（例如虚拟和增强现实体验）平台的作用，并指出了这些沉浸式技术在带宽和延迟方面的具体要求，以创造更加流畅和愉快的沉浸式体验。特别是讨论了将光子运动保持在20毫秒以下的延迟，是避免眩晕感（motion sickness）的关键。</p>
+
+<p> <a href="https://www.w3.org/2018/Talks/web5g/BBC_Scalable_media_delivery_on_the_Web_with_HTTP_Server_Push_20180510.pdf">Lucas Pardue (BBC)描述了</a>越来越多的消费者采用基于IP的实时媒体传播，以及新媒体技术(如超高清HD)所需的不断增长的带宽。当一个流（stream）可以为多个用户服务时，多播IP体系结构被视为一种可以避免一对一流浪费的方式。虽然运营商可以通过多媒体广播多播服务(Multimedia Broadcast Multicast Service，MBMS)提供此类服务，但支持多播的客户端仍然是有限的。BBC研发部门发布了一份基于QUIC的HTTP实验概要文件，该文件适用于IP多播，并使用HTTP服务器推送来支持单向传输。他们利用嵌入式客户端开发了一个端到端的概念验证，并且最近使用媒体源扩展（Media Source Extensions，MSE)与Service Worker构建了一个浏览器客户端原型。这项工作确定了充满自定义接口的Web平台上HTTP服务器推送的一个API差距。研讨会与会者讨论了需要哪些底层网络功能(发现、负载控制)和新的浏览器特性(断路器，HTTP推送事件)，来使这种方法具有可扩展性。关于这个问题的进一步讨论预计将在W3C的媒体和娱乐兴趣组（<a href="https://www.w3.org/2011/webtv/">W3C Media & Entertainment Interest Group</a>）中进行。</p>
+      
+<h2>跨层次共享发展</h2>
+<p>与会者共同回顾了一个对各层都产生重大影响的主题：最近机器学习方面的进展已经支持应用程序层的许多新用例(包括<a href="https://github.com/w3c/strategy/issues/28">浏览器中机器学习功能</a>的出现)，并且正积极探索其在自动化网络管理和计算资源分配（5G网络所需要和支持的网络软件化的两个关键方面）的作用。</p>
+      
+<p>这些讨论的目的是寻求有关不同层次机器学习算法的预期作用和当前部署的共识，同时识别，当在不同层次上同时使用机器学习时，协调方法（例如，围绕模型）的可能需求。</p>
+  
+<p><a href="https://www.w3.org/2018/Talks/web5g/Orch-ML.pdf">Joe Butler和Sharon Ruane (Intel)阐述了</a>他们在机器学习用于协调计算资源优势和优化资源配置方面的研究结果，以及有待解决的问题(请参见他们的相关立场论文)。</p>
+
+<p><a href="https://www.w3.org/2018/Talks/web5g/W3C_Web5G_DanD.pdf">Dan Druta (ATT) 介绍了Acumos框架</a>，该框架允许对模型和预测器进行编目和共享，同时还阐明机器学习在电信行业中的重要性，以及在该领域中跨行业协作的价值。</p>
+
+<p><a href="https://www.w3.org/2018/Talks/web5g/Web5G_ericsson_GoranEriksson.pdf">Göran Eriksson (Ericsson)分享</a>了在构建支持AI的Web应用程序时，需要在不同点和不同层次上构建、揭示和维护机器学习模型而带来的各种挑战。其中的一些挑战可以通过更好的跨层协作来解决，Göran提出的跨层协作可能更容易在专用网络环境中进行部署和实验(正如本报告前面所讨论的)。特别值得注意的是，有人指出了在浏览器和网络之间<a href="https://www.w3.org/2017/11/web5g-workshop/papers/Orange_position_statement.html">共享性能指标</a>以实现更好的优化潜在可能。
+     
+<h2>现有问题以及未来步骤</h2>
+<p>研讨会与会者探索了许多令人期待、可以让Web开发人员更多地了解网络功能的机会。</p>
+      <p>要实现这一目标，需要不同的利益相关者的共同努力：</p>
+      <ul>
+        <li>网络运营商需要准备好让渡对一些网络参数的独家控制，</li>
+        <li>相关的标准组织(例如3GPP)需要确保这些功能的暴露方式符合应用层社区的需求，包括他们在技术开发中的需求，</li>
+        <li>浏览器和操作系统供应商需要承认应用程序开发人员可以通过这些网络功能带来的额外价值，</li>
+        <li>应用程序开发人员本身需要开发相关技术，以逐步采用这些功能。</li>
+      </ul>
+<p>与会者积极构建可以进一步实现这些目标的提案，从而推动今后六个月的后续核心工作。这个特别任务组（task force）计划在W3C于2018年10月24日在法国里昂举办的技术开放日(W3C Technical Plenary day）期间，更新相关进展。</p>
+
+      <p>研讨会还确定了以下值得进一步探讨的技术主题:</p>
+      <ul>
+        <li>将HTTP服务器推送暴露给用户态JavaScript。 这可以启动Web上的新用例，例如由Service Worker管理的媒体流。这将在W3C的媒体和娱乐兴趣组（Media & Entertainment Interest Group）中进行深入探讨。</li>
+        <li>继续探索浏览器在机器学习应用程序部署中的作用。</li>
+      </ul>
+
+          </main>
+    <footer class="footer" id="footer">
+      <p>W3C是一个开放且包容的组织，专注于高效的讨论以及富有成效的行动。我们的<a href="https://www.w3.org/Consortium/cepc/">职业道德行为准则（Code of Ethics and Professional Conduct）</a>确保我们积极听取来自各方的意见与声音。</p>
+     
+      <p>有关该研讨会的更多细节，欢迎联系 Dominique Hazael-Massieux &lt;<a href="mailto:dom@w3.org">dom@w3.org</a>&gt;. </p>
+      <p>对于<a href="https://www.w3.org/2017/11/web5g-workshop/report.html">报告原文内容</a>的任何建议，例如修正拼写错误或添加具体话题等，欢迎通过<a href="https://github.com/w3c/web5g-workshop/">pull request on GitHub</a>直接提出, 或邮件联系 Dominique Hazael-Massieux &lt;<a href="mailto:dom@w3.org">dom@w3.org</a>&gt;.</p>
+      <p>关于<a href="https://www.w3.org/2017/11/web5g-workshop/report.zh.html">报告中文译文</a>的任何建议，欢迎邮件联系 Xueyuan Jia &lt;<a href="mailto:xueyuan@w3.org">xueyuan@w3.org</a>&gt;.</p>
+    </footer>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
